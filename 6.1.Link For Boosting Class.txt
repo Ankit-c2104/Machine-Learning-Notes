@@ -1,0 +1,13 @@
+Ada Boosting
+INeuron link - https://www.youtube.com/watch?v=5t9M-0ZAbpE&feature=youtu.be
+KNYT - https://www.youtube.com/watch?v=NLRO1-jp5F8&t=83s
+StatsQuest - https://www.youtube.com/watch?v=LsK-xG1cLYA
+
+Gradient Boosting
+Gradient Boosting Regression - StatsQuest
+link1 - https://www.youtube.com/watch?v=3CC4N4z3GJc
+link2 - https://www.youtube.com/watch?v=2xudPOBz-vs
+
+Gradient Boosting Classification- StatsQuest
+link1 - https://www.youtube.com/watch?v=jxuNLH5dXCs
+link2 - https://www.youtube.com/watch?v=StWY5QWMXCw
