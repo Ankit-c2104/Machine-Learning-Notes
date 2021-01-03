@@ -11,3 +11,14 @@ link2 - https://www.youtube.com/watch?v=2xudPOBz-vs
 Gradient Boosting Classification- StatsQuest
 link1 - https://www.youtube.com/watch?v=jxuNLH5dXCs
 link2 - https://www.youtube.com/watch?v=StWY5QWMXCw
+
+XGBoost(XTREME GRADIENT BOOSTING)
+KNYT
+XGBoost Regression - https://www.youtube.com/watch?v=w-_vmVfpssg
+XGBoost Classification - https://www.youtube.com/watch?v=gPciUPwWJQQ
+                                  
+StatsQuest
+XGBoost Regression - https://www.youtube.com/watch?v=OtD8wVaFm6E
+XGBoost Classification - https://www.youtube.com/watch?v=8b1JEDvenQU
+
+XGBoost Optimazations (Must Watch) - https://www.youtube.com/watch?v=oRrKeUCEbq8
