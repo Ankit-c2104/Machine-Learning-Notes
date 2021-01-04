@@ -22,3 +22,6 @@ XGBoost Regression - https://www.youtube.com/watch?v=OtD8wVaFm6E
 XGBoost Classification - https://www.youtube.com/watch?v=8b1JEDvenQU
 
 XGBoost Optimazations (Must Watch) - https://www.youtube.com/watch?v=oRrKeUCEbq8
+
+XGBost Start to end (hyperparameter tuning)
+must watch - https://www.youtube.com/watch?v=GrJP9FLV3FE&t=832s
