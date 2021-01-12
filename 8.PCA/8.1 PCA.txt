@@ -1,0 +1,46 @@
+Perform Standard Scaler before PCA, mean = 0, std dev = 1
+
+- There is no hard and fast rule to select features showing only 90% variance,
+  for medical domain we can select features showing 98-99% variance.
+
+if n- dimensions then n - PC,
+- but for training it is not necessary to use all the n principal component.
+
+- out of n- pc, how many should be used?
+  Ans - use the concept "Explained Variance Ratio" to decide the number of PC's
+	to be used.
+
+- All the PC's should pass through origin.
+
+- Why do the PC should pass through origin?
+  Ans - Becuase as we know that PC2 is perpendicular to PC1, so we get PC1 from the best
+	fit line, and to find out PC2 we need it to be perpendicular to PC1.
+	There can be thousands of perpendicular line from PC1, therefore we select
+	the perependicular line which passes through the origin to be our PC2.
+
+- PC1 -> shows most variance, PC2 shows 2nd most variance
+
+- why do we rotate the PC's
+  Ans - Because if we dont rotate it, we'll have to find the dist between 2 points
+        using euclidean dist which is problamatic in case of higher dimensions
+	(curse of dimensionality) and it does not serve the purpose of PCA to 
+	reduce the calculation. Whereas after rotating when PC1 becomes the 
+	X - axis the calculation to find the dist between 2 data points is
+        x2 - x1, which simpler than euclidean distance.
+
+- why clockwise and not anti - clockwise?
+  Ans - if we have a +ve data point and we project it to PC1 and when we rotate
+	it clockwise, the +ve stays +ve(x-axis), but if we rotate it in anticlockwise
+	the +ve number beocmes -ve(negative x-axis). That is in anticlockwise 
+	rotation the signs will get inversed.
+
+- Apply PCA only on continous data and not on categorical data
+ Scenario - lets say we have 200 continous and 100 categorical features
+	1.we separete the continous and categorical features an perform PCA on 
+	  continous data.
+	2.Let's say we got 30 PC of 200 features.
+	3.Now we concat this 30 PC and 100 categorical columns and train the data
+	  using this features.
+
+- PCA will not necessarily increase the accuracy, that is not the job of the PCA,
+  its main job is to reduce the training time by reducing the dimensionality.  
